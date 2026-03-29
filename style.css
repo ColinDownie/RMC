@@ -1,3 +1,38 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+:root {
+    --space-s: 12px;
+    --space-m: 24px;
+    --space-l: 40px;
+}
+
+.section {
+    padding: var(--space-l);
+    margin: var(--space-l) auto;
+}
+.button {
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.button:hover {
+    background: #000;
+    transform: translateY(-2px);
+}
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
 /* Typography */
 body {
     font-family: Arial, Helvetica, sans-serif;
