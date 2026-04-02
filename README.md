@@ -1,24 +1,22 @@
-# ROSS MANAGEMENT CONSULTANCY (RMC)  
-### A Division of Ross Creative  
+# Ross Management Consultancy (RMC)
+### A division of Ross Creative  
 **Governance • Systems • Oversight • Clarity**
 
 ---
 
-## ⭐ About RMC
+## Overview
 
-Ross Management Consultancy is the executive backbone of the Ross Creative Multiverse —  
-the division responsible for structure, governance, operational clarity, and strategic oversight.
+Ross Management Consultancy (RMC) is the executive backbone of the Ross Creative ecosystem — the division responsible for structure, governance, operational clarity, and strategic oversight.
 
 Where Ross Creative imagines, RMC stabilises.  
 Where the studios build, RMC ensures they scale.  
-Where ideas become artefacts, RMC ensures they become systems.
+Where ideas become artefacts, RMC turns them into systems.
 
-This is the boardroom arm of the Ross universe:  
-formal, precise, disciplined, and quietly formidable.
+This is the boardroom arm of the Ross universe: formal, precise, disciplined, and quietly formidable.
 
 ---
 
-## ⭐ Our Purpose
+## Purpose
 
 RMC exists to bring:
 
@@ -32,58 +30,63 @@ We build systems that don’t just work — they endure.
 
 ---
 
-## ⭐ What We Do
+## What we do
 
-RMC provides a full suite of management and governance services:
+RMC provides a suite of management and governance services.
 
-### Governance & Oversight
-- organisational governance frameworks  
-- board‑level reporting structures  
-- decision‑making systems  
-- accountability models  
+### Governance & oversight
 
-### Risk & Compliance
-- risk identification and mitigation  
-- compliance mapping  
-- regulatory alignment  
-- internal controls  
+- Organisational governance frameworks  
+- Board‑level reporting structures  
+- Decision‑making systems  
+- Accountability models  
 
-### Operational Systems
-- workflow design  
-- process optimisation  
-- operational architecture  
-- documentation and standardisation  
+### Risk & compliance
 
-### Strategic Clarity
-- business analysis  
-- structural planning  
-- growth frameworks  
-- executive advisory  
+- Risk identification and mitigation  
+- Compliance mapping  
+- Regulatory alignment  
+- Internal controls  
 
-### Methodologies & Frameworks
-- repeatable systems  
-- templates  
-- flowcharts  
-- operational playbooks  
+### Operational systems
+
+- Workflow design  
+- Process optimisation  
+- Operational architecture  
+- Documentation and standardisation  
+
+### Strategic clarity
+
+- Business analysis  
+- Structural planning  
+- Growth frameworks  
+- Executive advisory  
+
+### Methodologies & frameworks
+
+- Repeatable systems  
+- Templates  
+- Flowcharts  
+- Operational playbooks  
 
 RMC is where the Ross universe becomes scalable, stable, and strategically aligned.
 
 ---
 
-## ⭐ Tone & Identity
+## Tone & identity
 
 RMC speaks in a voice that is:
 
-- formal but human  
-- precise but not cold  
-- minimal but confident  
-- structured with a subtle mythic hum  
+- Formal but human  
+- Precise but not cold  
+- Minimal but confident  
+- Structured, with a subtle mythic undertone  
 
-This is the hybrid tone — the Ross signature, refined for the boardroom.
+It is the Ross signature, refined for the boardroom.
 
 ---
 
-## ⭐ Position in the Ross Creative Multiverse
+## Position in the Ross Creative ecosystem
 
 RMC is one of the core divisions of Ross Creative, alongside:
 
@@ -94,27 +97,26 @@ RMC is one of the core divisions of Ross Creative, alongside:
 - Ross Textiles  
 - Ross Digital  
 
-Where each division creates, builds, or imagines —  
-RMC ensures the entire multiverse operates with clarity and cohesion.
+Where each division creates, builds, or imagines, RMC ensures the entire ecosystem operates with clarity and cohesion.
 
 ---
 
-## ⭐ Repository Purpose
+## Repository scope
 
 This repository contains:
 
-- the governance architecture of RMC  
-- operational frameworks  
-- methodologies and templates  
-- risk and compliance structures  
-- systems documentation  
-- the strategic backbone of the Ross Creative ecosystem  
+- The governance architecture of RMC  
+- Operational frameworks and methodologies  
+- Templates and system blueprints  
+- Risk and compliance structures  
+- Systems documentation  
+- The strategic backbone of the Ross Creative ecosystem  
 
-This is the master control room of the Ross universe.
+It is the control layer for how the Ross universe operates.
 
 ---
 
-## ⭐ Commit History
+## Commit philosophy
 
 Every update strengthens the structure.  
 Every refinement sharpens the system.  
