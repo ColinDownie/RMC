@@ -1,118 +1,149 @@
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 0.8s ease-in forwards;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-:root {
-    --space-s: 12px;
-    --space-m: 24px;
-    --space-l: 40px;
-}
-
-.section {
-    padding: var(--space-l);
-    margin: var(--space-l) auto;
-}
-.button {
-    transition: background 0.2s ease, transform 0.1s ease;
-}
-
-.button:hover {
-    background: #000;
-    transform: translateY(-2px);
-}
-.card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    margin-bottom: 20px;
-}
-
-/* Typography */
-body {
-    font-family: Arial, Helvetica, sans-serif;
+/* -----------------------------------
+   GLOBAL RESET & BASE
+----------------------------------- */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --space-xs: 8px;
+    --space-s: 16px;
+    --space-m: 28px;
+    --space-l: 48px;
+
+    --radius-s: 4px;
+    --radius-m: 6px;
+
+    --shadow-soft: 0 2px 6px rgba(0,0,0,0.05);
+    --shadow-card: 0 2px 8px rgba(0,0,0,0.08);
+
+    --font-sans: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* -----------------------------------
+   TYPOGRAPHY
+----------------------------------- */
+body {
+    font-family: var(--font-sans);
     background: #f7f7f7;
     color: #222;
-    line-height: 1.6;
+    line-height: 1.65;
+    font-size: 1rem;
 }
 
 h1, h2, h3 {
     font-weight: 300;
-    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    margin-bottom: var(--space-s);
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
+    margin-bottom: var(--space-m);
 }
 
 h2 {
-    font-size: 1.4rem;
-    margin-top: 30px;
+    font-size: 1.6rem;
+    margin-top: var(--space-l);
 }
 
-/* Layout */
+/* -----------------------------------
+   LAYOUT / SECTIONS
+----------------------------------- */
 .section {
     max-width: 900px;
-    margin: 40px auto;
+    margin: var(--space-l) auto;
     background: #fff;
-    padding: 40px;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    padding: var(--space-l);
+    border-radius: var(--radius-m);
+    box-shadow: var(--shadow-soft);
+    animation: fadeIn 0.8s ease forwards;
 }
 
-/* Navigation */
+/* -----------------------------------
+   ANIMATIONS
+----------------------------------- */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* -----------------------------------
+   NAVIGATION
+----------------------------------- */
+nav {
+    background: #111;
+    padding: var(--space-s) 0;
+    box-shadow: var(--shadow-soft);
+}
+
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    background: #111;
     display: flex;
-    flex-wrap: wrap;
-}
-
-nav ul li {
-    margin: 0;
+    justify-content: center;
+    gap: var(--space-s);
 }
 
 nav ul li a {
     display: block;
-    padding: 12px 18px;
+    padding: 10px 16px;
     color: #fff;
     text-decoration: none;
     font-size: 0.9rem;
+    border-radius: var(--radius-s);
+    transition: background 0.2s ease, transform 0.15s ease;
 }
 
 nav ul li a:hover {
     background: #333;
+    transform: translateY(-2px);
 }
 
-/* Buttons */
+/* -----------------------------------
+   BUTTONS
+----------------------------------- */
 .button {
     display: inline-block;
-    padding: 10px 18px;
+    padding: 12px 20px;
     background: #111;
     color: #fff;
     text-decoration: none;
-    border-radius: 4px;
-    margin-top: 20px;
+    border-radius: var(--radius-s);
+    margin-top: var(--space-m);
+    transition: background 0.2s ease, transform 0.15s ease;
 }
 
 .button:hover {
     background: #333;
+    transform: translateY(-2px);
 }
 
-/* Footer */
+/* -----------------------------------
+   CARDS
+----------------------------------- */
+.card {
+    background: #fff;
+    padding: var(--space-m);
+    border-radius: var(--radius-m);
+    box-shadow: var(--shadow-card);
+    margin-bottom: var(--space-m);
+}
+
+/* -----------------------------------
+   FOOTER
+----------------------------------- */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: var(--space-m);
     background: #111;
     color: #fff;
-    margin-top: 40px;
+    margin-top: var(--space-l);
+    font-size: 0.9rem;
 }
